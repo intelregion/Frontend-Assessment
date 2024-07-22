@@ -1,58 +1,76 @@
 # Frontend-Assessment
 
-## Movie Application.
+### Event Management Dashboard
 
-### The application has 3 components:
-- The Movieform component, which allows the user to enter data about movies.
-- The Movieslist component, which displays the movies data.
-- The Search component, which allows the user to filter through existing movies.
+#### Objective:
+Create a responsive web application for managing events. The application should allow users to view, create, edit, and delete events. It should also include user authentication and authorization, dynamic data fetching, and a polished UI/UX.
 
-![ice_screenshot_20240722-071446](https://github.com/user-attachments/assets/fb4cec2d-84a4-4363-9129-15806d2a71fd)
+#### Requirements:
+1. **Authentication & Authorization:**
+   - Implement user authentication using JWT (JSON Web Tokens).
+   - Only authenticated users can create, edit, or delete events.
+   - Use role-based authorization (e.g., Admin, User).
 
-Each movie object in the Movielist should have the following properties:
-- name: The name of the movie [STRING]
-- rating: The rating of the movie in the range of 0 to 100 [NUMBER]
-- duration: The duration of the movie in hours [STRING]
+2. **Event Management:**
+   - Display a list of upcoming events in a grid or list view.
+   - Allow users to create new events with fields: Event Name, Date, Time, Description, and Location.
+   - Implement edit and delete functionality for events.
+   - Show detailed view of an event when clicked.
 
-## The application has the following functionalities:
+3. **Dynamic Data Fetching:**
+   - Fetch events data from a mock API (you can use tools like JSONPlaceholder or create a simple backend with Node.js/Express).
+   - Implement search functionality to filter events by name or date.
 
-• The Movieform component has the followings fields:
-   - 'Movie Name', which accepts a string denoting the movie name.
-   - 'Ratings', which accepts an integer denoting the movie's rating.
-   - 'Duration', which accepts a string denoting the movie's duration in hours (h) or 
-     minutes (m), e.g. in the format 132m or 2.5h.
+4. **Responsive Design:**
+   - Ensure the application is fully responsive and works well on mobile, tablet, and desktop devices.
+   - Use a modern CSS framework (e.g., Tailwind CSS, Bootstrap).
 
-• The Movieslist component displays the movie data sorted by duration in descending 
-  order. The format is as follows:
-   - {movie name}
-   - Ratings: {ratings}/100
-   - {duration} Hrs
+5. **Polished UI/UX:**
+   - Provide a user-friendly interface with smooth animations and transitions.
+   - Use icons and images appropriately to enhance the user experience.
+   - Ensure form validation and user feedback for all actions (e.g., success and error messages).
 
-• The following functionality should be implemented when the user clicks on the Add 
-  Movie button:
-   - If the duration format entered by the user is invalid, show the alert error message 
-     with the text 'Please specify the time in hours or minutes (e.g. 2.5h or 150m)'. This 
-     error message should be cleared once the user starts typing into any of the input 
-     fields.
-   - If all the input fields are filled with a valid value, a new movie should be added to 
-     the list.
-   - If the duration is entered in minutes, it must be converted to hours. For example, 
-     90m should be converted and displayed as '1.5 Hrs'.
+6. **Code Quality:**
+   - Write clean, modular, and maintainable code.
+   - Use TypeScript for type safety.
+   - Follow best practices for React development.
 
-• The Search component allows the user to filter through existing movies in the directory 
-  by the beginning characters.
-   - It requires the user to input at least 2 characters before the search happens.
-   - If the search finds no matches, the message 'No Results Found' is displayed instead 
-     of the list.
+#### Bonus Points:
+- Implement a calendar view for events.
+- Add unit and integration tests using Jest and React Testing Library.
+- Deploy the application to a cloud platform (e.g., Vercel, Netlify).
 
-• Initially, the Movieslist component and the 'No Results Found' message are not visible.
+### Evaluation Criteria:
+1. **Functionality:**
+   - Completeness of the features.
+   - Correctness of the implementation.
+   - User authentication and role-based access control.
 
-#### Submission Requirements
-- Use any frontend framework (preferrably React)
-- Code Repository - Provide a link to a GitHub repository containing all the code, scripts, and documentation.
-- Code Deployment - Host the application on netlify or other hosting platform of your choice.
-- Send the deployment and github links to contact@abiodunsamuel.com
-- Also, if you have any question you can forward them to contact@abiodunsamuel.com
+2. **Code Quality:**
+   - Code organization and structure.
+   - Use of TypeScript and type safety.
+   - Adherence to best practices and design patterns.
+
+3. **UI/UX Design:**
+   - Aesthetics and usability of the interface.
+   - Responsiveness and accessibility.
+   - User feedback and error handling.
+
+4. **Performance:**
+   - Efficient data fetching and state management.
+   - Fast loading times and smooth interactions.
+
+5. **Documentation:**
+   - Clear and concise README file.
+   - Comments and documentation within the code.
+
+### Submission:
+Submit the following:
+- A link to a GitHub repository with the source code.
+- A live demo link.
+- A README file with instructions on how to set up and run the project, as well as any design decisions or trade-offs made.
+- Send your links to contact@abiodunsamuel.com
+Also, if you have any question you can forward them to contact@abiodunsamuel.com
 
 Note: Dealine for submission is Friday, 26th July, 2024.
 Goodluck. 
