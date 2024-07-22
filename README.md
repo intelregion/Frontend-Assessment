@@ -69,8 +69,8 @@ Submit the following:
 - A link to a GitHub repository with the source code.
 - A live demo link.
 - A README file with instructions on how to set up and run the project, as well as any design decisions or trade-offs made.
-- Send your links to contact@abiodunsamuel.com
-Also, if you have any question you can forward them to contact@abiodunsamuel.com
+- Send your links to intelregion.com@gmail.com
+Also, if you have any question you can forward them to intelregion.com@gmail.com
 
 Note: Dealine for submission is Friday, 26th July, 2024.
 Goodluck. 
