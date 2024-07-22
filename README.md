@@ -18,7 +18,7 @@ Each movie object in the Movielist should have the following properties:
 
 • duration: The duration of the movie in hours [STRING]
 
-The application has the following functionalities:
+## The application has the following functionalities:
 
 • The Movieform component has the followings fields:
    - 'Movie Name', which accepts a string denoting the movie name.
@@ -28,25 +28,25 @@ The application has the following functionalities:
 
 • The Movieslist component displays the movie data sorted by duration in descending 
   order. The format is as follows:
-   {movie name}
-   Ratings: {ratings}/100
-   {duration} Hrs
+   - {movie name}
+   - Ratings: {ratings}/100
+   - {duration} Hrs
 
 • The following functionality should be implemented when the user clicks on the Add 
   Movie button:
-   If the duration format entered by the user is invalid, show the alert error message 
+   - If the duration format entered by the user is invalid, show the alert error message 
      with the text 'Please specify the time in hours or minutes (e.g. 2.5h or 150m)'. This 
      error message should be cleared once the user starts typing into any of the input 
      fields.
-   If all the input fields are filled with a valid value, a new movie should be added to 
+   - If all the input fields are filled with a valid value, a new movie should be added to 
      the list.
-   If the duration is entered in minutes, it must be converted to hours. For example, 
+   - If the duration is entered in minutes, it must be converted to hours. For example, 
      90m should be converted and displayed as '1.5 Hrs'.
 
 • The Search component allows the user to filter through existing movies in the directory 
   by the beginning characters.
-   It requires the user to input at least 2 characters before the search happens.
-   If the search finds no matches, the message 'No Results Found' is displayed instead 
+   - It requires the user to input at least 2 characters before the search happens.
+   - If the search finds no matches, the message 'No Results Found' is displayed instead 
      of the list.
 
 • Initially, the Movieslist component and the 'No Results Found' message are not visible.
