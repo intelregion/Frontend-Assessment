@@ -46,3 +46,12 @@ Each movie object in the Movielist should have the following properties:
      of the list.
 
 • Initially, the Movieslist component and the 'No Results Found' message are not visible.
+
+#### Submission 
+- Dealine for submission is Friday, 26th July, 2024.
+- Use any frontend framework (preferrably React).
+- Host the application on netlify
+- Send the netlify and github url to contact@abiodunsamuel.com
+- Also, if you have any question you can forward them to contact@abiodunsamuel.com
+
+Goodluck. 
