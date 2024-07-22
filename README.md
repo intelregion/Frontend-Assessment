@@ -21,9 +21,9 @@ Each movie object in the Movielist should have the following properties:
 The application has the following functionalities:
 
 • The Movieform component has the followings fields:
-   'Movie Name', which accepts a string denoting the movie name.
-   'Ratings', which accepts an integer denoting the movie's rating.
-   'Duration', which accepts a string denoting the movie's duration in hours (h) or 
+   - 'Movie Name', which accepts a string denoting the movie name.
+   - 'Ratings', which accepts an integer denoting the movie's rating.
+   - 'Duration', which accepts a string denoting the movie's duration in hours (h) or 
      minutes (m), e.g. in the format 132m or 2.5h.
 
 • The Movieslist component displays the movie data sorted by duration in descending 
